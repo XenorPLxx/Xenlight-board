@@ -15586,6 +15586,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="P+2" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15683,6 +15684,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="X5" gate="-8" x="177.8" y="10.16"/>
 <instance part="X5" gate="-9" x="177.8" y="7.62"/>
 <instance part="X5" gate="-10" x="177.8" y="5.08"/>
+<instance part="P+2" gate="VCC" x="162.56" y="12.7" rot="R90"/>
 </instances>
 <busses>
 <bus name="N$[9..16]">
@@ -16738,6 +16740,33 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="X6" gate="-2" pin="S"/>
 <wire x1="83.82" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC12" gate="G$1" pin="I6"/>
+<wire x1="175.26" y1="22.86" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="22.86" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="167.64" y1="20.32" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="17.78" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="G$1" pin="I7"/>
+<wire x1="175.26" y1="20.32" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="G$1" pin="I8"/>
+<wire x1="175.26" y1="17.78" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="G$1" pin="I6"/>
+<wire x1="175.26" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="G$1" pin="I7"/>
+<wire x1="175.26" y1="-15.24" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-15.24" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="G$1" pin="I8"/>
+<wire x1="175.26" y1="-17.78" x2="167.64" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-17.78" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="167.64" y="20.32"/>
+<junction x="167.64" y="17.78"/>
+<junction x="167.64" y="12.7"/>
+<junction x="167.64" y="-12.7"/>
+<junction x="167.64" y="-15.24"/>
+</segment>
 </net>
 <net name="N$125" class="0">
 <segment>
@@ -16914,40 +16943,16 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="111.76" y1="170.18" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="IC11" gate="G$1" pin="GND"/>
 <wire x1="172.72" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="50.8" x2="172.72" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="G$1" pin="GND"/>
-<wire x1="172.72" y1="22.86" x2="172.72" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="20.32" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="17.78" x2="172.72" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="15.24" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="IC13" gate="G$1" pin="GND"/>
 <wire x1="172.72" y1="10.16" x2="172.72" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="7.62" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="5.08" x2="172.72" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-12.7" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-15.24" x2="172.72" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-17.78" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="5.08" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-20.32" x2="175.26" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="172.72" y="15.24"/>
-<pinref part="IC12" gate="G$1" pin="I6"/>
-<wire x1="175.26" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="G$1" pin="I7"/>
-<wire x1="175.26" y1="20.32" x2="172.72" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="G$1" pin="I8"/>
-<wire x1="175.26" y1="17.78" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="G$1" pin="I8"/>
-<wire x1="175.26" y1="-17.78" x2="172.72" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="G$1" pin="I7"/>
-<wire x1="175.26" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IC13" gate="G$1" pin="I6"/>
-<wire x1="175.26" y1="-12.7" x2="172.72" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="172.72" y="-17.78"/>
-<junction x="172.72" y="-15.24"/>
-<junction x="172.72" y="-12.7"/>
-<junction x="172.72" y="17.78"/>
-<junction x="172.72" y="20.32"/>
-<junction x="172.72" y="22.86"/>
 <pinref part="IC9" gate="G$1" pin="GND"/>
 <pinref part="IC8" gate="G$1" pin="GND"/>
 <wire x1="175.26" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
