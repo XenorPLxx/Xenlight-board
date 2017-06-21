@@ -1,0 +1,50 @@
+Partlist
+
+Exported from xenlight.brd at 24.08.14 17:25:55
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part      Value          Package   Library     Position (inch)       Orientation
+
+ATMEGA16                 TQFP44    atmel       (2.873 1.471)         R90
+C1        100n           C1206     rcl         (1.285 -0.167)        R270
+C2        22u            E1,8-4    rcl         (1.109 -0.14)         MR270
+C3        22p            C1206     rcl         (2.816 1.048)         R0
+C4        22p            C1206     rcl         (3.025 1.048)         R180
+C5        100n           C1206     rcl         (2.398 0.386)         R180
+C6        10n            C1206     rcl         (2.586 -0.053)        R0
+FT232RL                  SSOP28    ftdichip    (2.847 0.265)         R90
+L1        10uH           R1206     rcl         (1.349 0.128)         R90
+LATCH1    74HC573D       SO20W     74xx-eu     (2.036 2.771)         R90
+LATCH2    74HC573D       SO20W     74xx-eu     (2.062 1.922)         R90
+LATCH3    74HC573D       SO20W     74xx-eu     (1.768 1.002)         R90
+LATCH4    74HC573D       SO20W     74xx-eu     (3.967 2.72)          R270
+LATCH5    74HC573D       SO20W     74xx-eu     (3.965 1.953)         R270
+LATCH6    74HC573D       SO20W     74xx-eu     (3.967 1.378)         R270
+LATCH7    74HC573D       SO20W     74xx-eu     (3.965 0.709)         R270
+LATCH8    74HC573D       SO20W     74xx-eu     (3.96 0.155)          R270
+LATCH9    74HC573D       SO20W     74xx-eu     (3.982 -0.393)        R270
+Q1                       HC49UP    crystal     (2.91 0.845)          R180
+R1        10k            R0805     rcl         (1.435 0.662)         R180
+R2        4k7            R0805     rcl         (2.416 0.205)         R270
+R3        10k            R0805     rcl         (2.276 0.266)         R0
+SERWIS                   057-010-1 con-panduit (1.441 0.428)         MR180
+ULN1      1/1            SO18W     uln-udn2    (1.401 2.796)         R90
+ULN2      2/1            SO18W     uln-udn2    (1.394 1.948)         R90
+ULN3      3/1            SO18W     uln-udn2    (1.157 1.026)         R90
+ULN4      1/2            SO18W     uln-udn2    (4.643 2.694)         R270
+ULN5      2/2            SO18W     uln-udn2    (4.66 1.933)          R270
+ULN6      3/2            SO18W     uln-udn2    (4.663 1.351)         R270
+ULN7      1/3            SO18W     uln-udn2    (4.68 0.684)          R270
+ULN8      2/3            SO18W     uln-udn2    (4.685 0.132)         R270
+ULN9      3/3            SO18W     uln-udn2    (4.707 -0.418)        R270
+X1                       057-016-1 con-panduit (0.571 2.544)         MR90
+X2                       057-016-1 con-panduit (0.569 1.373)         MR90
+X3                       057-016-1 con-panduit (5.402 2.563)         MR270
+X4                       057-016-1 con-panduit (5.401 1.416)         MR270
+X5                       057-016-1 con-panduit (5.916 1.077)         MR270
+X6                       057-016-1 con-panduit (5.914 -0.084)        MR270
+X7        KUSBVX         KUSBVX    con-kycon   (1.854 -0.029)        MR0
+ZASILANIE                AK300/3   con-ptr500  (2.871 -0.45)         MR0

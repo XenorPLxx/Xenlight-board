@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/dawid_000/SkyDrive/Projekty/Eagle/Xenlight v2/xenlight.brd
+Job           : E:/SkyDrive/Projekty/Eagle/Xenlight v3/xenlight.brd
 
-Start at      : 00:51:04 (15.08.14)
-End at        : 00:51:12 (15.08.14)
-Elapsed time  : 00:00:08
+Start at      : 15:52:10 (24.08.14)
+End at        : 15:52:29 (24.08.14)
+Elapsed time  : 00:00:19
 
-Signals       :   139   RoutingGrid: 50 mil  Layers: 2
-Connections   :   234   predefined:  49 ( 0 Vias )
+Signals       :   202   RoutingGrid: 50 mil  Layers: 2
+Connections   :   349   predefined:  288 ( 90 Vias )
 
-Router memory :   40880
+Router memory :   44892
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:02  00:00:02  00:00:01  00:00:02  00:00:01
-Number of Ripups  :         0        26         0         0         0         0
-max. Level        :         0         2         0         0         0         0
-max. Total        :         0         6         0         0         0         0
+Time per pass     :  00:00:02  00:00:02  00:00:04  00:00:04  00:00:04  00:00:03
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        14       108       108       108       108       108
-Vias              :         0       125        66        53        53        51
-Resolution        :    26.9 %    67.1 %    67.1 %    67.1 %    67.1 %    67.1 %
+Routed            :         0        28        28        28        28        28
+Vias              :         0        30        28        28        28        28
+Resolution        :    82.5 %    90.5 %    90.5 %    90.5 %    90.5 %    90.5 %
 
-Final             : 62.0% finished. Polygons may have fallen apart.
+Final             : 90.0% finished. Polygons may have fallen apart.
