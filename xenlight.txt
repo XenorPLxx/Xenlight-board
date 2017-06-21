@@ -1,0 +1,39 @@
+Partlist
+
+Exported from xenlight.sch at 12.04.14 18:13:35
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device        Package   Library     Sheet
+
+C1       100n           C-EUC1206     C1206     rcl         1
+C2       22u            CPOL-EUE1.8-4 E1,8-4    rcl         1
+C3       22p            C-EUC1206     C1206     rcl         1
+C4       22p            C-EUC1206     C1206     rcl         1
+C5       100n           C-EUC1206     C1206     rcl         1
+IC1      MEGA16-A       MEGA16-A      TQFP44    atmel       1
+IC2      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC3      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC4      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC5      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC6      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC7      74HC573D       74HC573D      SO20W     74xx-eu     1
+IC8                     ULN2803ASOL18 SO18W     uln-udn2    1
+IC9                     ULN2803ASOL18 SO18W     uln-udn2    1
+IC10                    ULN2803ASOL18 SO18W     uln-udn2    1
+IC11                    ULN2803ASOL18 SO18W     uln-udn2    1
+IC12                    ULN2803ASOL18 SO18W     uln-udn2    1
+IC13                    ULN2803ASOL18 SO18W     uln-udn2    1
+IC14     FT232RL        FT232RL       SSOP28    ftdichip    1
+JP1                     PINHD-1X30    1X30      pinhead     1
+JP2                     PINHD-1X25    1X25      pinhead     1
+JP3                     PINHD-1X1     1X01      pinhead     1
+Q1                      CRYSTALHC49S  HC49/S    crystal     1
+R1       10k            R-EU_R0805    R0805     rcl         1
+R7       10k            R-EU_R0805    R0805     rcl         1
+R8       4k7            R-EU_R0805    R0805     rcl         1
+X6       057-010-1      057-010-1     057-010-1 con-panduit 1
+X7       KUSBVX         KUSBVX        KUSBVX    con-kycon   1
+X9                      AK300/3       AK300/3   con-ptr500  1
