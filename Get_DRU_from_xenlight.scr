@@ -1,0 +1,2 @@
+DRC SAVE 'E:/SkyDrive/Projekty/Eagle/Xenlight v3b/xenlight.dru';
+RUN eagle2freerouter.ulp 'xenlight.dru';
